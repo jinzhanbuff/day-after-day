@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2030年未来就业技能</title>
+    <!-- 引入Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入Inter字体 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-8">
+
+    <div class="container max-w-7xl mx-auto">
+        <!-- 页面主标题 -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900">2030年未来就业技能</h1>
+            <p class="text-lg text-gray-600 mt-2">世界经济论坛《未来就业报告》</p>
+        </header>
+
+        <!-- 2x2 技能卡片网格 -->
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- 
+                卡片 1: 新兴技能 (左上)
+                使用蓝色系，代表“新兴”和“技术”
+            -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transition-all hover:shadow-2xl">
+                <!-- 卡片标题区 -->
+                <div class="border-l-4 border-blue-500 pl-4 mb-4">
+                    <h2 class="text-2xl font-bold text-blue-700">新兴技能 (Emerging Skills)</h2>
+                    <p class="text-sm text-gray-500 mt-1">现阶段不算核心，但未来需求将大幅增长</p>
+                </div>
+                <!-- 技能列表 -->
+                <ul class="list-none space-y-2 text-gray-800">
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2">✓</span>
+                        网络与网络安全
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2">✓</span>
+                        环境管理
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2">✓</span>
+                        设计与用户体验
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 
+                卡片 2: 核心技能 (右上)
+                使用绿色系，代表“核心”和“增长”
+            -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transition-all hover:shadow-2xl">
+                <!-- 卡片标题区 -->
+                <div class="border-l-4 border-green-500 pl-4 mb-4">
+                    <h2 class="text-2xl font-bold text-green-700">核心技能 (Core Skills)</h2>
+                    <p class="text-sm text-gray-500 mt-1">目前核心且未来重要性将继续提升</p>
+                </div>
+                <!-- 技能列表 (使用多列) -->
+                <ul class="list-none space-y-2 text-gray-800 md:columns-2">
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>人工智能与大数据</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>技术素养</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>好奇心与终身学习</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>创造性思维</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>韧性、灵活性与敏捷性</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>领导力与社会影响力</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>分析性思维</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>动机与自我认知</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>同理心与积极倾听</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>客户服务与服务导向</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>资源管理与运营管理</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2">✓</span>可靠性与细致关注</li>
+                </ul>
+            </div>
+
+            <!-- 
+                卡片 3: 不受关注技能 (左下)
+                使用红色系，代表“下降”或“淘汰”
+            -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transition-all hover:shadow-2xl">
+                <!-- 卡片标题区 -->
+                <div class="border-l-4 border-red-500 pl-4 mb-4">
+                    <h2 class="text-2xl font-bold text-red-700">不受关注技能 (Out-of-focus)</h2>
+                    <p class="text-sm text-gray-500 mt-1">当前不重要且未来需求下降</p>
+                </div>
+                <!-- 技能列表 -->
+                <ul class="list-none space-y-2 text-gray-800">
+                    <li class="flex items-center">
+                        <span class="text-red-500 mr-2">✓</span>
+                        编程 (相对较低)
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-red-500 mr-2">✓</span>
+                        多语言能力
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-red-500 mr-2">✓</span>
+                        营销媒体
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-red-500 mr-2">✓</span>
+                        阅读写作数学
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-red-500 mr-2">✓</span>
+                        体力技能等
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 
+                卡片 4: 稳定技能 (右下)
+                使用黄色/琥珀色系，代表“稳定”
+            -->
+            <div class="bg-white p-6 rounded-xl shadow-lg transition-all hover:shadow-2xl">
+                <!-- 卡片标题区 -->
+                <div class="border-l-4 border-yellow-500 pl-4 mb-4">
+                    <h2 class="text-2xl font-bold text-yellow-700">稳定技能 (Steady Skills)</h2>
+                    <p class="text-sm text-gray-500 mt-1">目前为核心，但未来使用不会显著增加</p>
+                </div>
+                <!-- 技能列表 -->
+                <ul class="list-none space-y-2 text-gray-800">
+                    <li class="flex items-center">
+                        <span class="text-yellow-500 mr-2">✓</span>
+                        系统思维
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-yellow-500 mr-2">✓</span>
+                        教学与指导
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-yellow-500 mr-2">✓</span>
+                        质量控制
+                    </li>
+                   
+                </ul>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
